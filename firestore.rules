@@ -1,0 +1,50 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    function validText(value, maxLength) {
+      return value is string && value.size() <= maxLength;
+    }
+
+    match /users/{userId}/notes/{noteId} {
+      allow read, delete: if isOwner(userId);
+
+      allow create, update: if isOwner(userId)
+        && request.resource.data.keys().hasOnly([
+          'id', 'blockId', 'classId', 'weekId', 'dayId', 'date',
+          'subjectCode', 'body', 'createdAt', 'updatedAt'
+        ])
+        && request.resource.data.id == noteId
+        && validText(request.resource.data.blockId, 160)
+        && validText(request.resource.data.classId, 80)
+        && validText(request.resource.data.weekId, 8)
+        && request.resource.data.dayId in ['mon', 'tue', 'wed', 'thu', 'fri']
+        && validText(request.resource.data.date, 10)
+        && validText(request.resource.data.subjectCode, 12)
+        && validText(request.resource.data.body, 2000)
+        && request.resource.data.body.size() > 0
+        && validText(request.resource.data.createdAt, 40)
+        && validText(request.resource.data.updatedAt, 40);
+    }
+
+    match /users/{userId}/blockMeta/{blockId} {
+      allow read, delete: if isOwner(userId);
+
+      allow create, update: if isOwner(userId)
+        && request.resource.data.keys().hasOnly([
+          'blockId', 'description', 'updatedAt'
+        ])
+        && request.resource.data.blockId == blockId
+        && validText(request.resource.data.description, 2000)
+        && validText(request.resource.data.updatedAt, 40);
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

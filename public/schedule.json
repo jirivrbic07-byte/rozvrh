@@ -1,0 +1,5000 @@
+{
+  "source": "ROZVRH - ZÃÅÃ (1).xlsx, ROZVRH - ŘÍJEN (1).xlsx",
+  "classes": [
+    "ZOP BS-3A",
+    "III/1A/2026",
+    "III/2A/2026",
+    "III/3A/2026",
+    "III/4A/2026",
+    "TECC AB-26A",
+    "SZZ-3A"
+  ],
+  "weeks": [
+    {
+      "id": "36",
+      "label": "Týden 36",
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-04",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-08-31"
+        },
+        {
+          "id": "tue",
+          "date": "2026-09-01"
+        },
+        {
+          "id": "wed",
+          "date": "2026-09-02"
+        },
+        {
+          "id": "thu",
+          "date": "2026-09-03"
+        },
+        {
+          "id": "fri",
+          "date": "2026-09-04"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w36-zop-bs-3a-tue-0-5-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Nájezd etapy, školení"
+          },
+          {
+            "id": "w36-zop-bs-3a-tue-7-8-2",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "b.6A - PC Nájezd etapy, školení"
+          },
+          {
+            "id": "w36-zop-bs-3a-wed-0-1-3",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Hab 1-2"
+          },
+          {
+            "id": "w36-zop-bs-3a-wed-2-3-4",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Maz 017, 029 1-2"
+          },
+          {
+            "id": "w36-zop-bs-3a-wed-4-5-5",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas 1-2"
+          },
+          {
+            "id": "w36-zop-bs-3a-wed-7-8-6",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čer 1-2"
+          },
+          {
+            "id": "w36-zop-bs-3a-thu-0-1-7",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Čer 3-4"
+          },
+          {
+            "id": "w36-zop-bs-3a-thu-2-3-8",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Maz 017, 029 3-4"
+          },
+          {
+            "id": "w36-zop-bs-3a-thu-4-5-9",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas 3-4"
+          },
+          {
+            "id": "w36-zop-bs-3a-thu-7-8-10",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Hab 3-4"
+          },
+          {
+            "id": "w36-zop-bs-3a-fri-0-1-11",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed 1-2"
+          },
+          {
+            "id": "w36-zop-bs-3a-fri-2-3-12",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Maz 017, 029 5-6"
+          },
+          {
+            "id": "w36-zop-bs-3a-fri-4-5-13",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čer 5-6"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w36-iii-1a-2026-tue-0-5-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Nájezd etapy"
+          },
+          {
+            "id": "w36-iii-1a-2026-tue-7-8-2",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Aula 1-2"
+          },
+          {
+            "id": "w36-iii-1a-2026-wed-0-5-3",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPČ Maš Vzdělávací centrum 3-8"
+          },
+          {
+            "id": "w36-iii-1a-2026-wed-7-8-4",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Vzdělávací centrum 9-10"
+          },
+          {
+            "id": "w36-iii-1a-2026-thu-0-3-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "SPP Čep 1-4"
+          },
+          {
+            "id": "w36-iii-1a-2026-thu-4-5-6",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Šiz 1-2"
+          },
+          {
+            "id": "w36-iii-1a-2026-thu-7-8-7",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Šiz 3-4"
+          },
+          {
+            "id": "w36-iii-1a-2026-fri-0-5-8",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šmo,Han Areál Suchý nácvik 1-6"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w36-iii-2a-2026-tue-0-5-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Nájezd etapy"
+          },
+          {
+            "id": "w36-iii-2a-2026-tue-7-8-2",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Aula 1-2"
+          },
+          {
+            "id": "w36-iii-2a-2026-wed-0-5-3",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPČ Maš Vzdělávací centrum 3-8"
+          },
+          {
+            "id": "w36-iii-2a-2026-wed-7-8-4",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Vzdělávací centrum 9-10"
+          },
+          {
+            "id": "w36-iii-2a-2026-thu-0-3-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "SDP Kac 1-4"
+          },
+          {
+            "id": "w36-iii-2a-2026-thu-4-5-6",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Hul,Šen 1-2"
+          },
+          {
+            "id": "w36-iii-2a-2026-thu-7-8-7",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Liš 1-2"
+          },
+          {
+            "id": "w36-iii-2a-2026-fri-0-1-8",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Jav 016, 028 1-2"
+          },
+          {
+            "id": "w36-iii-2a-2026-fri-2-3-9",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Uhe 1-2"
+          },
+          {
+            "id": "w36-iii-2a-2026-fri-4-5-10",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Liš 3-4"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w36-iii-3a-2026-tue-0-5-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Nájezd etapy"
+          },
+          {
+            "id": "w36-iii-3a-2026-tue-7-8-2",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Aula 1-2"
+          },
+          {
+            "id": "w36-iii-3a-2026-wed-0-5-3",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPČ Maš Vzdělávací centrum 3-8"
+          },
+          {
+            "id": "w36-iii-3a-2026-wed-7-8-4",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Vzdělávací centrum 9-10"
+          },
+          {
+            "id": "w36-iii-3a-2026-thu-0-5-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Váv,Sot Areál Suchý nácvik 1-6"
+          },
+          {
+            "id": "w36-iii-3a-2026-thu-7-8-6",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Lia,Maz 028, 017 1-2"
+          },
+          {
+            "id": "w36-iii-3a-2026-fri-0-1-7",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Vlč 1-2"
+          },
+          {
+            "id": "w36-iii-3a-2026-fri-2-3-8",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 1-2"
+          },
+          {
+            "id": "w36-iii-3a-2026-fri-4-5-9",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Koš 1-2"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w36-iii-4a-2026-tue-0-5-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Nájezd etapy"
+          },
+          {
+            "id": "w36-iii-4a-2026-tue-7-8-2",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Aula 1-2"
+          },
+          {
+            "id": "w36-iii-4a-2026-wed-0-5-3",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPČ Maš Vzdělávací centrum 3-8"
+          },
+          {
+            "id": "w36-iii-4a-2026-wed-7-8-4",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Maš Vzdělávací centrum 9-10"
+          },
+          {
+            "id": "w36-iii-4a-2026-thu-0-3-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "PRA Jar 1-4"
+          },
+          {
+            "id": "w36-iii-4a-2026-thu-4-5-6",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Syc 1-2"
+          },
+          {
+            "id": "w36-iii-4a-2026-thu-7-8-7",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Syc 3-4"
+          },
+          {
+            "id": "w36-iii-4a-2026-fri-0-1-8",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Vys 1-2"
+          },
+          {
+            "id": "w36-iii-4a-2026-fri-2-3-9",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Raš 1-2"
+          },
+          {
+            "id": "w36-iii-4a-2026-fri-4-5-10",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Jav,Maz 016, 017 1-2"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": []
+      }
+    },
+    {
+      "id": "37",
+      "label": "Týden 37",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-11",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-09-07"
+        },
+        {
+          "id": "tue",
+          "date": "2026-09-08"
+        },
+        {
+          "id": "wed",
+          "date": "2026-09-09"
+        },
+        {
+          "id": "thu",
+          "date": "2026-09-10"
+        },
+        {
+          "id": "fri",
+          "date": "2026-09-11"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w37-zop-bs-3a-mon-0-3-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "PRA Kas 5-8"
+          },
+          {
+            "id": "w37-zop-bs-3a-mon-4-5-2",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Bul 1-2"
+          },
+          {
+            "id": "w37-zop-bs-3a-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čer 7-8"
+          },
+          {
+            "id": "w37-zop-bs-3a-tue-0-1-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Maz 017, 029 7-8"
+          },
+          {
+            "id": "w37-zop-bs-3a-tue-2-5-5",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "SDP Hab 5-8"
+          },
+          {
+            "id": "w37-zop-bs-3a-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Kas 9-10"
+          },
+          {
+            "id": "w37-zop-bs-3a-wed-0-5-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šaf,Jad Areál Suchý nácvik 1-6"
+          },
+          {
+            "id": "w37-zop-bs-3a-wed-7-8-8",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čer 9-10"
+          },
+          {
+            "id": "w37-zop-bs-3a-thu-0-1-9",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "ŘSV Hab 1-2"
+          },
+          {
+            "id": "w37-zop-bs-3a-thu-2-3-10",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Šaf,Jad 1-2"
+          },
+          {
+            "id": "w37-zop-bs-3a-thu-4-5-11",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 3-4"
+          },
+          {
+            "id": "w37-zop-bs-3a-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Kou,Maz 017, 029 9-10"
+          },
+          {
+            "id": "w37-zop-bs-3a-fri-0-1-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Kas 11-12"
+          },
+          {
+            "id": "w37-zop-bs-3a-fri-2-3-14",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Bul 3-4"
+          },
+          {
+            "id": "w37-zop-bs-3a-fri-4-5-15",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 5-6"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w37-iii-1a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Nok 1-2"
+          },
+          {
+            "id": "w37-iii-1a-2026-mon-2-5-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "PRA Šiz 5-8"
+          },
+          {
+            "id": "w37-iii-1a-2026-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul 1-2"
+          },
+          {
+            "id": "w37-iii-1a-2026-tue-0-1-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Nok 3-4"
+          },
+          {
+            "id": "w37-iii-1a-2026-tue-2-3-5",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Jav 016, 029 1-2"
+          },
+          {
+            "id": "w37-iii-1a-2026-tue-4-5-6",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Šmo,Bra 1-2"
+          },
+          {
+            "id": "w37-iii-1a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čep 5-6"
+          },
+          {
+            "id": "w37-iii-1a-2026-wed-0-1-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Jav 016, 029 3-4"
+          },
+          {
+            "id": "w37-iii-1a-2026-wed-2-3-9",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Šiz 9-10"
+          },
+          {
+            "id": "w37-iii-1a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Bul 3-4"
+          },
+          {
+            "id": "w37-iii-1a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čep 7-8"
+          },
+          {
+            "id": "w37-iii-1a-2026-thu-0-5-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šmo,Han Hloubětín 7-12"
+          },
+          {
+            "id": "w37-iii-1a-2026-thu-7-8-13",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Dou 1-2"
+          },
+          {
+            "id": "w37-iii-1a-2026-fri-0-1-14",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Jav 016, 029 5-6"
+          },
+          {
+            "id": "w37-iii-1a-2026-fri-2-3-15",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Nok 5-6"
+          },
+          {
+            "id": "w37-iii-1a-2026-fri-4-5-16",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Šmo,Han 3-4"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w37-iii-2a-2026-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Hul,Šen Areál Suchý nácvik 1-6"
+          },
+          {
+            "id": "w37-iii-2a-2026-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Lia,Jav 016, 028 3-4"
+          },
+          {
+            "id": "w37-iii-2a-2026-tue-0-1-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Kac 5-6"
+          },
+          {
+            "id": "w37-iii-2a-2026-tue-2-3-4",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Hul,Šen 3-4"
+          },
+          {
+            "id": "w37-iii-2a-2026-tue-4-5-5",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Lia,Jav 016, 028 5-6"
+          },
+          {
+            "id": "w37-iii-2a-2026-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Liš 5-6"
+          },
+          {
+            "id": "w37-iii-2a-2026-wed-0-1-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Uhe 3-4"
+          },
+          {
+            "id": "w37-iii-2a-2026-wed-2-3-8",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Jav 016, 028 7-8"
+          },
+          {
+            "id": "w37-iii-2a-2026-wed-4-5-9",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Uhe 5-6"
+          },
+          {
+            "id": "w37-iii-2a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Hul,Šen 5-6"
+          },
+          {
+            "id": "w37-iii-2a-2026-thu-0-1-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Kac 7-8"
+          },
+          {
+            "id": "w37-iii-2a-2026-thu-2-3-12",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "ŘSV Kac 1-2"
+          },
+          {
+            "id": "w37-iii-2a-2026-thu-4-5-13",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Liš 7-8"
+          },
+          {
+            "id": "w37-iii-2a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Uhe 7-8"
+          },
+          {
+            "id": "w37-iii-2a-2026-fri-0-1-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed 1-2"
+          },
+          {
+            "id": "w37-iii-2a-2026-fri-2-3-16",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Liš 9-10"
+          },
+          {
+            "id": "w37-iii-2a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Lia,Jav 016, 028 9-10"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w37-iii-3a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Maz 028, 017 3-4"
+          },
+          {
+            "id": "w37-iii-3a-2026-mon-2-5-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "KPE Nok 1-4"
+          },
+          {
+            "id": "w37-iii-3a-2026-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vlč 3-4"
+          },
+          {
+            "id": "w37-iii-3a-2026-tue-0-1-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Váv,Sot 1-2"
+          },
+          {
+            "id": "w37-iii-3a-2026-tue-2-3-5",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Koš 3-4"
+          },
+          {
+            "id": "w37-iii-3a-2026-tue-4-5-6",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 5-6"
+          },
+          {
+            "id": "w37-iii-3a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Lia,Maz 028, 017 5-6"
+          },
+          {
+            "id": "w37-iii-3a-2026-wed-0-1-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Vaš 3-4"
+          },
+          {
+            "id": "w37-iii-3a-2026-wed-2-3-9",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Koš 5-6"
+          },
+          {
+            "id": "w37-iii-3a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 7-8"
+          },
+          {
+            "id": "w37-iii-3a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Lia,Maz 028, 017 7-8"
+          },
+          {
+            "id": "w37-iii-3a-2026-thu-0-1-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Maz 028, 017 9-10"
+          },
+          {
+            "id": "w37-iii-3a-2026-thu-2-3-13",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Vlč 9-10"
+          },
+          {
+            "id": "w37-iii-3a-2026-thu-4-5-14",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Vaš 5-6"
+          },
+          {
+            "id": "w37-iii-3a-2026-thu-7-8-15",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Koš 7-8"
+          },
+          {
+            "id": "w37-iii-3a-2026-fri-0-1-16",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Koš 9-10"
+          },
+          {
+            "id": "w37-iii-3a-2026-fri-2-3-17",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 7-8"
+          },
+          {
+            "id": "w37-iii-3a-2026-fri-4-5-18",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 11-12"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w37-iii-4a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Jar 5-6"
+          },
+          {
+            "id": "w37-iii-4a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Jav,Maz 016, 017 3-4"
+          },
+          {
+            "id": "w37-iii-4a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vys 3-4"
+          },
+          {
+            "id": "w37-iii-4a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Jar 7-8"
+          },
+          {
+            "id": "w37-iii-4a-2026-tue-0-5-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Kop,Nov Areál Suchý nácvik 1-6"
+          },
+          {
+            "id": "w37-iii-4a-2026-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Syc 5-6"
+          },
+          {
+            "id": "w37-iii-4a-2026-wed-0-1-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Kop,Nov 1-2"
+          },
+          {
+            "id": "w37-iii-4a-2026-wed-2-3-8",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Syc 7-8"
+          },
+          {
+            "id": "w37-iii-4a-2026-wed-4-5-9",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Jar 9-10"
+          },
+          {
+            "id": "w37-iii-4a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Raš 3-4"
+          },
+          {
+            "id": "w37-iii-4a-2026-thu-0-3-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Kop,Nov 1-4"
+          },
+          {
+            "id": "w37-iii-4a-2026-thu-4-5-12",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Kop,Nov 3-4"
+          },
+          {
+            "id": "w37-iii-4a-2026-thu-7-8-13",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed 1-2"
+          },
+          {
+            "id": "w37-iii-4a-2026-fri-0-1-14",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Vys 5-6"
+          },
+          {
+            "id": "w37-iii-4a-2026-fri-2-3-15",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Jav,Maz 016, 017 5-6"
+          },
+          {
+            "id": "w37-iii-4a-2026-fri-4-5-16",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Jar 11-12"
+          }
+        ],
+        "TECC AB-26A": [
+          {
+            "id": "w37-tecc-ab-26a-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "TEC Han 1-6"
+          },
+          {
+            "id": "w37-tecc-ab-26a-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TEC Han 7-8"
+          },
+          {
+            "id": "w37-tecc-ab-26a-tue-0-5-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "TEC Han 9-14"
+          },
+          {
+            "id": "w37-tecc-ab-26a-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TEC Han 15-16"
+          }
+        ],
+        "SZZ-3A": []
+      }
+    },
+    {
+      "id": "38",
+      "label": "Týden 38",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-18",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-09-14"
+        },
+        {
+          "id": "tue",
+          "date": "2026-09-15"
+        },
+        {
+          "id": "wed",
+          "date": "2026-09-16"
+        },
+        {
+          "id": "thu",
+          "date": "2026-09-17"
+        },
+        {
+          "id": "fri",
+          "date": "2026-09-18"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w38-zop-bs-3a-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Maz 017, 029 11-12"
+          },
+          {
+            "id": "w38-zop-bs-3a-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Čer 11-12"
+          },
+          {
+            "id": "w38-zop-bs-3a-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Bul 5-6"
+          },
+          {
+            "id": "w38-zop-bs-3a-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Hab 9-10"
+          },
+          {
+            "id": "w38-zop-bs-3a-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Čer 13-14"
+          },
+          {
+            "id": "w38-zop-bs-3a-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Bul 7-8"
+          },
+          {
+            "id": "w38-zop-bs-3a-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Šaf,Jad 3-4"
+          },
+          {
+            "id": "w38-zop-bs-3a-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed 7-8"
+          },
+          {
+            "id": "w38-zop-bs-3a-wed-0-1-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Bul 9-10"
+          },
+          {
+            "id": "w38-zop-bs-3a-wed-2-3-10",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Čer Aula přednáška NOC 15-16"
+          },
+          {
+            "id": "w38-zop-bs-3a-wed-4-5-11",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "DPČ Maš Aula přednáška - železnice 1-2"
+          },
+          {
+            "id": "w38-zop-bs-3a-wed-7-8-12",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed 9-10"
+          },
+          {
+            "id": "w38-zop-bs-3a-thu-0-1-13",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Čer 17-18"
+          },
+          {
+            "id": "w38-zop-bs-3a-thu-2-3-14",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Maz 017, 029 13-14"
+          },
+          {
+            "id": "w38-zop-bs-3a-thu-4-5-15",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Bul S33 . 11-12"
+          },
+          {
+            "id": "w38-zop-bs-3a-thu-7-8-16",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul 13-14"
+          },
+          {
+            "id": "w38-zop-bs-3a-fri-0-1-17",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Kas . 13-14"
+          },
+          {
+            "id": "w38-zop-bs-3a-fri-2-3-18",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Kas S33 . 15-16"
+          },
+          {
+            "id": "w38-zop-bs-3a-fri-4-5-19",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Hab 11-12"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w38-iii-1a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Čep 9-10"
+          },
+          {
+            "id": "w38-iii-1a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Bul 5-6"
+          },
+          {
+            "id": "w38-iii-1a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Kou,Jav 016, 029 7-8"
+          },
+          {
+            "id": "w38-iii-1a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Nok 7-8"
+          },
+          {
+            "id": "w38-iii-1a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Bul 7-8"
+          },
+          {
+            "id": "w38-iii-1a-2026-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Šiz 11-12"
+          },
+          {
+            "id": "w38-iii-1a-2026-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čep 11-12"
+          },
+          {
+            "id": "w38-iii-1a-2026-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Kou,Jav 016, 029 9-10"
+          },
+          {
+            "id": "w38-iii-1a-2026-wed-0-1-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Dou 3-4"
+          },
+          {
+            "id": "w38-iii-1a-2026-wed-2-3-10",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Čep Aula přednáška NOC 13-14"
+          },
+          {
+            "id": "w38-iii-1a-2026-wed-4-5-11",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "ŘSV Dou 1-2"
+          },
+          {
+            "id": "w38-iii-1a-2026-wed-7-8-12",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul 9-10"
+          },
+          {
+            "id": "w38-iii-1a-2026-thu-0-3-13",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Šmo,Han 1-4"
+          },
+          {
+            "id": "w38-iii-1a-2026-thu-4-5-14",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Šmo,Han 5-6"
+          },
+          {
+            "id": "w38-iii-1a-2026-thu-7-8-15",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Šiz 13-14"
+          },
+          {
+            "id": "w38-iii-1a-2026-fri-0-1-16",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Jav 016, 029 11-12"
+          },
+          {
+            "id": "w38-iii-1a-2026-fri-2-3-17",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Dou 5-6"
+          },
+          {
+            "id": "w38-iii-1a-2026-fri-4-5-18",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Bul 11-12"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w38-iii-2a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed 3-4"
+          },
+          {
+            "id": "w38-iii-2a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Jav 016, 028 11-12"
+          },
+          {
+            "id": "w38-iii-2a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Liš 11-12"
+          },
+          {
+            "id": "w38-iii-2a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Uhe 9-10"
+          },
+          {
+            "id": "w38-iii-2a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Kac 9-10"
+          },
+          {
+            "id": "w38-iii-2a-2026-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Pet 1-2"
+          },
+          {
+            "id": "w38-iii-2a-2026-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 5-6"
+          },
+          {
+            "id": "w38-iii-2a-2026-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Uhe 11-12"
+          },
+          {
+            "id": "w38-iii-2a-2026-wed-0-1-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Pet 3-4"
+          },
+          {
+            "id": "w38-iii-2a-2026-wed-2-3-10",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Uhe Aula přednáška NOC 13-14"
+          },
+          {
+            "id": "w38-iii-2a-2026-wed-4-5-11",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Hul,Šen 1-2"
+          },
+          {
+            "id": "w38-iii-2a-2026-wed-7-8-12",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Hul,Šen 3-4"
+          },
+          {
+            "id": "w38-iii-2a-2026-thu-0-5-13",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Hul,Šen Hloubětín 7-12"
+          },
+          {
+            "id": "w38-iii-2a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Pet 5-6"
+          },
+          {
+            "id": "w38-iii-2a-2026-fri-0-1-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Kac 11-12"
+          },
+          {
+            "id": "w38-iii-2a-2026-fri-2-3-16",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Pet 7-8"
+          },
+          {
+            "id": "w38-iii-2a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 7-8"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w38-iii-3a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Nok 5-6"
+          },
+          {
+            "id": "w38-iii-3a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 9-10"
+          },
+          {
+            "id": "w38-iii-3a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Koš 11-12"
+          },
+          {
+            "id": "w38-iii-3a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Lia,Maz 028, 017 11-12"
+          },
+          {
+            "id": "w38-iii-3a-2026-tue-0-5-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Váv,Sot Hloubětín 7-12"
+          },
+          {
+            "id": "w38-iii-3a-2026-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Bou 1-2"
+          },
+          {
+            "id": "w38-iii-3a-2026-wed-0-1-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Koš 13-14"
+          },
+          {
+            "id": "w38-iii-3a-2026-wed-2-3-8",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Vlč Aula přednáška NOC 13-14"
+          },
+          {
+            "id": "w38-iii-3a-2026-wed-4-5-9",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Bou 3-4"
+          },
+          {
+            "id": "w38-iii-3a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Váv,Sot 3-4"
+          },
+          {
+            "id": "w38-iii-3a-2026-thu-0-1-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Koš S33 . 15-16"
+          },
+          {
+            "id": "w38-iii-3a-2026-thu-2-3-12",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 11-12"
+          },
+          {
+            "id": "w38-iii-3a-2026-thu-4-5-13",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Bou 5-6"
+          },
+          {
+            "id": "w38-iii-3a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vlč 15-16"
+          },
+          {
+            "id": "w38-iii-3a-2026-fri-0-1-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Koš 17-18"
+          },
+          {
+            "id": "w38-iii-3a-2026-fri-2-3-16",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Nok 7-8"
+          },
+          {
+            "id": "w38-iii-3a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 17-18"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w38-iii-4a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Raš 5-6"
+          },
+          {
+            "id": "w38-iii-4a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Syc 9-10"
+          },
+          {
+            "id": "w38-iii-4a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vys 7-8"
+          },
+          {
+            "id": "w38-iii-4a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vys 9-10"
+          },
+          {
+            "id": "w38-iii-4a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Jav,Maz 016, 017 7-8"
+          },
+          {
+            "id": "w38-iii-4a-2026-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Jed 3-4"
+          },
+          {
+            "id": "w38-iii-4a-2026-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Kop,Nov 5-6"
+          },
+          {
+            "id": "w38-iii-4a-2026-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Kop,Nov 7-8"
+          },
+          {
+            "id": "w38-iii-4a-2026-wed-0-1-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Jav,Maz 016, 017 9-10"
+          },
+          {
+            "id": "w38-iii-4a-2026-wed-2-3-10",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Vys Aula přednáška NOC 11-12"
+          },
+          {
+            "id": "w38-iii-4a-2026-wed-4-5-11",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Raš 7-8"
+          },
+          {
+            "id": "w38-iii-4a-2026-wed-7-8-12",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Jar 13-14"
+          },
+          {
+            "id": "w38-iii-4a-2026-thu-0-1-13",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Syc 11-12"
+          },
+          {
+            "id": "w38-iii-4a-2026-thu-2-3-14",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Kop,Nov 5-6"
+          },
+          {
+            "id": "w38-iii-4a-2026-thu-4-5-15",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Raš 9-10"
+          },
+          {
+            "id": "w38-iii-4a-2026-thu-7-8-16",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Jav,Maz 016, 017 . 11-12"
+          },
+          {
+            "id": "w38-iii-4a-2026-fri-0-1-17",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Syc 13-14"
+          },
+          {
+            "id": "w38-iii-4a-2026-fri-2-3-18",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Raš 11-12"
+          },
+          {
+            "id": "w38-iii-4a-2026-fri-4-5-19",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vys 13-14"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": []
+      }
+    },
+    {
+      "id": "39",
+      "label": "Týden 39",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-25",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-09-21"
+        },
+        {
+          "id": "tue",
+          "date": "2026-09-22"
+        },
+        {
+          "id": "wed",
+          "date": "2026-09-23"
+        },
+        {
+          "id": "thu",
+          "date": "2026-09-24"
+        },
+        {
+          "id": "fri",
+          "date": "2026-09-25"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w39-zop-bs-3a-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Šaf,Jad 5-6"
+          },
+          {
+            "id": "w39-zop-bs-3a-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Hab 13-14"
+          },
+          {
+            "id": "w39-zop-bs-3a-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Šaf,Jad 1-2"
+          },
+          {
+            "id": "w39-zop-bs-3a-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Šaf,Jad 3-4"
+          },
+          {
+            "id": "w39-zop-bs-3a-tue-0-5-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šaf,Jad Hloubětín 7-12"
+          },
+          {
+            "id": "w39-zop-bs-3a-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul S33 . 15-16"
+          },
+          {
+            "id": "w39-zop-bs-3a-wed-0-3-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "PRA Kas . 17-20"
+          },
+          {
+            "id": "w39-zop-bs-3a-wed-4-5-8",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas 016, 017 . 21-22"
+          },
+          {
+            "id": "w39-zop-bs-3a-wed-7-8-9",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Hab 15-16"
+          },
+          {
+            "id": "w39-zop-bs-3a-thu-0-1-10",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Hab 17-18"
+          },
+          {
+            "id": "w39-zop-bs-3a-thu-2-3-11",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "ŘSV Hab 3-4"
+          },
+          {
+            "id": "w39-zop-bs-3a-thu-4-5-12",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas 23-24"
+          },
+          {
+            "id": "w39-zop-bs-3a-thu-7-8-13",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čer 19-20"
+          },
+          {
+            "id": "w39-zop-bs-3a-fri-0-1-14",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Kas 25-26"
+          },
+          {
+            "id": "w39-zop-bs-3a-fri-2-3-15",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Šaf,Jad 7-8"
+          },
+          {
+            "id": "w39-zop-bs-3a-fri-4-5-16",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Bul 17-18"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w39-iii-1a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Jav 016, 029 13-14"
+          },
+          {
+            "id": "w39-iii-1a-2026-mon-2-5-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "PRA Šiz 15-18"
+          },
+          {
+            "id": "w39-iii-1a-2026-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul 13-14"
+          },
+          {
+            "id": "w39-iii-1a-2026-tue-0-1-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Čep 15-16"
+          },
+          {
+            "id": "w39-iii-1a-2026-tue-2-3-5",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Dou 7-8"
+          },
+          {
+            "id": "w39-iii-1a-2026-tue-4-5-6",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Šmo,Han 5-6"
+          },
+          {
+            "id": "w39-iii-1a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Šmo,Han 7-8"
+          },
+          {
+            "id": "w39-iii-1a-2026-wed-0-1-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Dou 9-10"
+          },
+          {
+            "id": "w39-iii-1a-2026-wed-2-3-9",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Šmo,Han 7-8"
+          },
+          {
+            "id": "w39-iii-1a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čep 17-18"
+          },
+          {
+            "id": "w39-iii-1a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul S33 . 15-16"
+          },
+          {
+            "id": "w39-iii-1a-2026-thu-0-3-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "SDP Dou 11-14"
+          },
+          {
+            "id": "w39-iii-1a-2026-thu-4-5-13",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Šiz 19-20"
+          },
+          {
+            "id": "w39-iii-1a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čep 19-20"
+          },
+          {
+            "id": "w39-iii-1a-2026-fri-0-1-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Bul 17-18"
+          },
+          {
+            "id": "w39-iii-1a-2026-fri-2-3-16",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Dou 15-16"
+          },
+          {
+            "id": "w39-iii-1a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Nok,Jed . 9-10"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w39-iii-2a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Kac 13-14"
+          },
+          {
+            "id": "w39-iii-2a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Hul,Šen 7-8"
+          },
+          {
+            "id": "w39-iii-2a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Liš 13-14"
+          },
+          {
+            "id": "w39-iii-2a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed,Nok . 9-10"
+          },
+          {
+            "id": "w39-iii-2a-2026-tue-0-3-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "PRA Pet 9-12"
+          },
+          {
+            "id": "w39-iii-2a-2026-tue-4-5-6",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Lia,Jav 016, 028 13-14"
+          },
+          {
+            "id": "w39-iii-2a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Uhe 15-16"
+          },
+          {
+            "id": "w39-iii-2a-2026-wed-0-5-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Kac FZŠ Sosnová/Polygon VZ Praha 3-8"
+          },
+          {
+            "id": "w39-iii-2a-2026-wed-7-8-9",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Kac FZŠ Sosnová/Polygon VZ Praha 9-10"
+          },
+          {
+            "id": "w39-iii-2a-2026-thu-0-1-10",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Uhe 17-18"
+          },
+          {
+            "id": "w39-iii-2a-2026-thu-2-5-11",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "PRA Pet 13-16"
+          },
+          {
+            "id": "w39-iii-2a-2026-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Liš S33 . 15-16"
+          },
+          {
+            "id": "w39-iii-2a-2026-fri-0-1-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Uhe 19-20"
+          },
+          {
+            "id": "w39-iii-2a-2026-fri-2-5-14",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "PRA Pet 17-20"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w39-iii-3a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Vlč 19-20"
+          },
+          {
+            "id": "w39-iii-3a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 13-14"
+          },
+          {
+            "id": "w39-iii-3a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 21-22"
+          },
+          {
+            "id": "w39-iii-3a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Váv,Sot 5-6"
+          },
+          {
+            "id": "w39-iii-3a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Vaš 15-16"
+          },
+          {
+            "id": "w39-iii-3a-2026-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Maz 028, 017 13-14"
+          },
+          {
+            "id": "w39-iii-3a-2026-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Bou 7-8"
+          },
+          {
+            "id": "w39-iii-3a-2026-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Bou 9-10"
+          },
+          {
+            "id": "w39-iii-3a-2026-wed-0-3-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Váv,Sot 1-4"
+          },
+          {
+            "id": "w39-iii-3a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Váv,Sot 7-8"
+          },
+          {
+            "id": "w39-iii-3a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Bou 11-12"
+          },
+          {
+            "id": "w39-iii-3a-2026-thu-0-1-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Vlč 23-24"
+          },
+          {
+            "id": "w39-iii-3a-2026-thu-2-3-13",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Bou 13-14"
+          },
+          {
+            "id": "w39-iii-3a-2026-thu-4-5-14",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "ŘSV Vaš 1-2"
+          },
+          {
+            "id": "w39-iii-3a-2026-thu-7-8-15",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Bou 15-16"
+          },
+          {
+            "id": "w39-iii-3a-2026-fri-0-1-16",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Bou 17-18"
+          },
+          {
+            "id": "w39-iii-3a-2026-fri-2-3-17",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Nok,Jed . 9-10"
+          },
+          {
+            "id": "w39-iii-3a-2026-fri-4-5-18",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Bou 19-20"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w39-iii-4a-2026-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Kop,Nov Hloubětín 7-12"
+          },
+          {
+            "id": "w39-iii-4a-2026-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vys 15-16"
+          },
+          {
+            "id": "w39-iii-4a-2026-tue-0-3-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "PRA Jar 15-18"
+          },
+          {
+            "id": "w39-iii-4a-2026-tue-4-5-4",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vys 17-18"
+          },
+          {
+            "id": "w39-iii-4a-2026-tue-7-8-5",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vys 19-20"
+          },
+          {
+            "id": "w39-iii-4a-2026-wed-0-1-6",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Raš 13-14"
+          },
+          {
+            "id": "w39-iii-4a-2026-wed-2-3-7",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Jar 19-20"
+          },
+          {
+            "id": "w39-iii-4a-2026-wed-4-5-8",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 5-6"
+          },
+          {
+            "id": "w39-iii-4a-2026-wed-7-8-9",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Jav,Maz 016, 017 13-14"
+          },
+          {
+            "id": "w39-iii-4a-2026-thu-0-1-10",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "ŘSV Syc 1-2"
+          },
+          {
+            "id": "w39-iii-4a-2026-thu-2-3-11",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Raš 016, 017 . 15-16"
+          },
+          {
+            "id": "w39-iii-4a-2026-thu-4-5-12",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Kop,Nov 7-8"
+          },
+          {
+            "id": "w39-iii-4a-2026-thu-7-8-13",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed 7-8"
+          },
+          {
+            "id": "w39-iii-4a-2026-fri-0-1-14",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed,Nok . 9-10"
+          },
+          {
+            "id": "w39-iii-4a-2026-fri-2-3-15",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Raš 17-18"
+          },
+          {
+            "id": "w39-iii-4a-2026-fri-4-5-16",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Jar 21-22"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": [
+          {
+            "id": "w39-szz-3a-tue-0-5-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "SZZ Jed,Nok 1-6"
+          },
+          {
+            "id": "w39-szz-3a-tue-7-8-2",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SZZ Jed,Nok 7-8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "40",
+      "label": "Týden 40",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-02",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-09-28"
+        },
+        {
+          "id": "tue",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "wed",
+          "date": "2026-09-30"
+        },
+        {
+          "id": "thu",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "fri",
+          "date": "2026-10-02"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w40-zop-bs-3a-tue-0-1-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Šaf,Jad 9-10"
+          },
+          {
+            "id": "w40-zop-bs-3a-tue-2-3-2",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SJP Koa,Flx 1-2"
+          },
+          {
+            "id": "w40-zop-bs-3a-tue-4-5-3",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Šaf,Jad 5-6"
+          },
+          {
+            "id": "w40-zop-bs-3a-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Šaf,Jad 7-8"
+          },
+          {
+            "id": "w40-zop-bs-3a-wed-0-1-5",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Bul . 19-20"
+          },
+          {
+            "id": "w40-zop-bs-3a-wed-2-3-6",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Bul S33 . 21-22"
+          },
+          {
+            "id": "w40-zop-bs-3a-wed-4-5-7",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Hab 19-20"
+          },
+          {
+            "id": "w40-zop-bs-3a-wed-7-8-8",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Šaf,Jad 11-12"
+          },
+          {
+            "id": "w40-zop-bs-3a-thu-0-1-9",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Maz 017, 029 15-16"
+          },
+          {
+            "id": "w40-zop-bs-3a-thu-2-3-10",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Kas 27-28"
+          },
+          {
+            "id": "w40-zop-bs-3a-thu-4-5-11",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SJP Koa,Flx 3-4"
+          },
+          {
+            "id": "w40-zop-bs-3a-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Šaf,Jad úplovna - SŠ 13-14"
+          },
+          {
+            "id": "w40-zop-bs-3a-fri-0-1-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Šaf,Jad 15-16"
+          },
+          {
+            "id": "w40-zop-bs-3a-fri-2-3-14",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Maz 017, 029 17-18"
+          },
+          {
+            "id": "w40-zop-bs-3a-fri-4-5-15",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas 29-30"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w40-iii-1a-2026-tue-0-5-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šmo,Han Hloubětín 13-18"
+          },
+          {
+            "id": "w40-iii-1a-2026-tue-7-8-2",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Šiz 21-22"
+          },
+          {
+            "id": "w40-iii-1a-2026-wed-0-5-3",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Dou FZŠ Sosnová/Polygon VZ Praha 3-8"
+          },
+          {
+            "id": "w40-iii-1a-2026-wed-7-8-4",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Dou FZŠ Sosnová/Polygon VZ Praha 9-10"
+          },
+          {
+            "id": "w40-iii-1a-2026-thu-0-1-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Šmo,Han 9-10"
+          },
+          {
+            "id": "w40-iii-1a-2026-thu-2-3-6",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SJP Mar,Flx 1-2"
+          },
+          {
+            "id": "w40-iii-1a-2026-thu-4-5-7",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čep 21-22"
+          },
+          {
+            "id": "w40-iii-1a-2026-thu-7-8-8",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čep 23-24"
+          },
+          {
+            "id": "w40-iii-1a-2026-fri-0-1-9",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Jav 016, 029 15-16"
+          },
+          {
+            "id": "w40-iii-1a-2026-fri-2-3-10",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Šiz 23-24"
+          },
+          {
+            "id": "w40-iii-1a-2026-fri-4-5-11",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Dou 17-18"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w40-iii-2a-2026-tue-0-1-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Uhe 21-22"
+          },
+          {
+            "id": "w40-iii-2a-2026-tue-2-3-2",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Jav 016, 028 15-16"
+          },
+          {
+            "id": "w40-iii-2a-2026-tue-4-5-3",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Kac 15-16"
+          },
+          {
+            "id": "w40-iii-2a-2026-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Uhe 23-24"
+          },
+          {
+            "id": "w40-iii-2a-2026-wed-0-1-5",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SJP Mar,Flx 1-2"
+          },
+          {
+            "id": "w40-iii-2a-2026-wed-2-3-6",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Liš 17-18"
+          },
+          {
+            "id": "w40-iii-2a-2026-wed-4-5-7",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Váv,Sot 9-10"
+          },
+          {
+            "id": "w40-iii-2a-2026-wed-7-8-8",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Kac 17-18"
+          },
+          {
+            "id": "w40-iii-2a-2026-thu-0-3-9",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "PRA Pet 21-24"
+          },
+          {
+            "id": "w40-iii-2a-2026-thu-4-5-10",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Hul,Šen 11-12"
+          },
+          {
+            "id": "w40-iii-2a-2026-thu-7-8-11",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Liš 19-20"
+          },
+          {
+            "id": "w40-iii-2a-2026-fri-0-1-12",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Pet 25-26"
+          },
+          {
+            "id": "w40-iii-2a-2026-fri-2-3-13",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Kac 19-20"
+          },
+          {
+            "id": "w40-iii-2a-2026-fri-4-5-14",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Uhe 25-26"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w40-iii-3a-2026-tue-0-1-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Bou 21-22"
+          },
+          {
+            "id": "w40-iii-3a-2026-tue-2-3-2",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Koš 19-20"
+          },
+          {
+            "id": "w40-iii-3a-2026-tue-4-5-3",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Lia,Maz 028, 017 15-16"
+          },
+          {
+            "id": "w40-iii-3a-2026-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Nok 11-12"
+          },
+          {
+            "id": "w40-iii-3a-2026-wed-0-1-5",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Váv,Sot 9-10"
+          },
+          {
+            "id": "w40-iii-3a-2026-wed-2-3-6",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Maz 028, 017 17-18"
+          },
+          {
+            "id": "w40-iii-3a-2026-wed-4-5-7",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Nok 13-14"
+          },
+          {
+            "id": "w40-iii-3a-2026-wed-7-8-8",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Bou 23-24"
+          },
+          {
+            "id": "w40-iii-3a-2026-thu-0-1-9",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SJP Mar,Flx 1-2"
+          },
+          {
+            "id": "w40-iii-3a-2026-thu-2-3-10",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Koš 21-22"
+          },
+          {
+            "id": "w40-iii-3a-2026-thu-4-5-11",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Bou 25-26"
+          },
+          {
+            "id": "w40-iii-3a-2026-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Váv,Sot 11-12"
+          },
+          {
+            "id": "w40-iii-3a-2026-fri-0-1-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Bou 27-28"
+          },
+          {
+            "id": "w40-iii-3a-2026-fri-2-3-14",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Koš,Nok . 23-24"
+          },
+          {
+            "id": "w40-iii-3a-2026-fri-4-5-15",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Koš 425, 6A - PC . 25-26"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w40-iii-4a-2026-tue-0-1-1",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Jav,Maz 016, 017 15-16"
+          },
+          {
+            "id": "w40-iii-4a-2026-tue-2-3-2",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Kop,Nov 9-10"
+          },
+          {
+            "id": "w40-iii-4a-2026-tue-4-5-3",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Jar 23-24"
+          },
+          {
+            "id": "w40-iii-4a-2026-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SJP Mar,Flx 1-2"
+          },
+          {
+            "id": "w40-iii-4a-2026-wed-0-1-5",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Jar 25-26"
+          },
+          {
+            "id": "w40-iii-4a-2026-wed-2-3-6",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SJP Mar,Flx 3-4"
+          },
+          {
+            "id": "w40-iii-4a-2026-wed-4-5-7",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "MBP Mar,Flx 1-2"
+          },
+          {
+            "id": "w40-iii-4a-2026-wed-7-8-8",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Syc 15-16"
+          },
+          {
+            "id": "w40-iii-4a-2026-thu-0-1-9",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Raš 19-20"
+          },
+          {
+            "id": "w40-iii-4a-2026-thu-2-5-10",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "SPP Vys 21-24"
+          },
+          {
+            "id": "w40-iii-4a-2026-thu-7-8-11",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Jar 27-28"
+          },
+          {
+            "id": "w40-iii-4a-2026-fri-0-1-12",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Syc 17-18"
+          },
+          {
+            "id": "w40-iii-4a-2026-fri-2-3-13",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Vys 25-26"
+          },
+          {
+            "id": "w40-iii-4a-2026-fri-4-5-14",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Jar 29-30"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": []
+      }
+    },
+    {
+      "id": "41",
+      "label": "Týden 41",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-09",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-10-05"
+        },
+        {
+          "id": "tue",
+          "date": "2026-10-06"
+        },
+        {
+          "id": "wed",
+          "date": "2026-10-07"
+        },
+        {
+          "id": "thu",
+          "date": "2026-10-08"
+        },
+        {
+          "id": "fri",
+          "date": "2026-10-09"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w41-zop-bs-3a-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PRA Kas 31-36"
+          },
+          {
+            "id": "w41-zop-bs-3a-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Hab 21-22"
+          },
+          {
+            "id": "w41-zop-bs-3a-tue-0-1-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed 11-12"
+          },
+          {
+            "id": "w41-zop-bs-3a-tue-2-3-4",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Jed,Nok 13-14"
+          },
+          {
+            "id": "w41-zop-bs-3a-tue-4-5-5",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SJP Koa,Flx,Mar 5-6"
+          },
+          {
+            "id": "w41-zop-bs-3a-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Šaf,Jad 17-18"
+          },
+          {
+            "id": "w41-zop-bs-3a-wed-0-1-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed krizová komunikace 15-16"
+          },
+          {
+            "id": "w41-zop-bs-3a-wed-2-5-8",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "KPE Jed,Nok krizová komunikace 17-20"
+          },
+          {
+            "id": "w41-zop-bs-3a-wed-7-8-9",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed,Nok krizová komunikace 21-22"
+          },
+          {
+            "id": "w41-zop-bs-3a-thu-0-5-10",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Hab FZŠ Příbram/Polygon VZ Praha 5-10"
+          },
+          {
+            "id": "w41-zop-bs-3a-thu-7-8-11",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Hab FZŠ Příbram/Polygon VZ Praha 11-12"
+          },
+          {
+            "id": "w41-zop-bs-3a-fri-0-3-12",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Šaf,Jad 9-12"
+          },
+          {
+            "id": "w41-zop-bs-3a-fri-4-5-13",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Kou,Maz 017, 029 19-20"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w41-iii-1a-2026-mon-0-3-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Han souč. cv. věznice Pankrác 9-12"
+          },
+          {
+            "id": "w41-iii-1a-2026-mon-4-5-2",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Nok souč. cv. věznice Pankrác 11-12"
+          },
+          {
+            "id": "w41-iii-1a-2026-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul souč. cv. věznice Pankrác 19-20"
+          },
+          {
+            "id": "w41-iii-1a-2026-tue-0-5-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šmo,Han Kladno 19-24"
+          },
+          {
+            "id": "w41-iii-1a-2026-tue-7-8-5",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Kou,Jav 016, 029 17-18"
+          },
+          {
+            "id": "w41-iii-1a-2026-wed-0-1-6",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Bul 21-22"
+          },
+          {
+            "id": "w41-iii-1a-2026-wed-2-3-7",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Šiz 25-26"
+          },
+          {
+            "id": "w41-iii-1a-2026-wed-4-5-8",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Kou,Jav 028, 017 19-20"
+          },
+          {
+            "id": "w41-iii-1a-2026-wed-7-8-9",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čep 25-26"
+          },
+          {
+            "id": "w41-iii-1a-2026-thu-0-1-10",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Šiz 27-28"
+          },
+          {
+            "id": "w41-iii-1a-2026-thu-2-3-11",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Jav 016, 029 21-22"
+          },
+          {
+            "id": "w41-iii-1a-2026-thu-4-5-12",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Dou 19-20"
+          },
+          {
+            "id": "w41-iii-1a-2026-thu-7-8-13",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čep 27-28"
+          },
+          {
+            "id": "w41-iii-1a-2026-fri-0-1-14",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Nok 13-14"
+          },
+          {
+            "id": "w41-iii-1a-2026-fri-2-3-15",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Jav 016, 029 23-24"
+          },
+          {
+            "id": "w41-iii-1a-2026-fri-4-5-16",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čep 29-30"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w41-iii-2a-2026-mon-0-3-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Hul,Šen souč. cv. věznice Pankrác 5-8"
+          },
+          {
+            "id": "w41-iii-2a-2026-mon-4-5-2",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Pet souč. cv. věznice Pankrác 27-28"
+          },
+          {
+            "id": "w41-iii-2a-2026-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed souč. cv. věznice Pankrác 11-12"
+          },
+          {
+            "id": "w41-iii-2a-2026-tue-0-1-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Jav 016, 028 17-18"
+          },
+          {
+            "id": "w41-iii-2a-2026-tue-2-3-5",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Hul,Šen 13-14"
+          },
+          {
+            "id": "w41-iii-2a-2026-tue-4-5-6",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 13-14"
+          },
+          {
+            "id": "w41-iii-2a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed 15-16"
+          },
+          {
+            "id": "w41-iii-2a-2026-wed-0-1-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Kac 21-22"
+          },
+          {
+            "id": "w41-iii-2a-2026-wed-2-3-9",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "MBP Mar,Flx 1-2"
+          },
+          {
+            "id": "w41-iii-2a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Liš 21-22"
+          },
+          {
+            "id": "w41-iii-2a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Hul,Šen 15-16"
+          },
+          {
+            "id": "w41-iii-2a-2026-thu-0-1-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Uhe 27-28"
+          },
+          {
+            "id": "w41-iii-2a-2026-thu-2-5-13",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "SDP Kac 23-26"
+          },
+          {
+            "id": "w41-iii-2a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Lia,Jav 016, 028 19-20"
+          },
+          {
+            "id": "w41-iii-2a-2026-fri-0-1-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Uhe 29-30"
+          },
+          {
+            "id": "w41-iii-2a-2026-fri-2-3-16",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Pet 29-30"
+          },
+          {
+            "id": "w41-iii-2a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Kac 27-28"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w41-iii-3a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Nok 15-16"
+          },
+          {
+            "id": "w41-iii-3a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 17-18"
+          },
+          {
+            "id": "w41-iii-3a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "ŘSV Vaš 3-4"
+          },
+          {
+            "id": "w41-iii-3a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SJP Mar,Flx 3-4"
+          },
+          {
+            "id": "w41-iii-3a-2026-tue-0-5-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Váv,Sot Hloubětín 13-18"
+          },
+          {
+            "id": "w41-iii-3a-2026-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Bou 29-30"
+          },
+          {
+            "id": "w41-iii-3a-2026-wed-0-1-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Váv,Sot 13-14"
+          },
+          {
+            "id": "w41-iii-3a-2026-wed-2-3-8",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Maz 028, 017 19-20"
+          },
+          {
+            "id": "w41-iii-3a-2026-wed-4-5-9",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 25-26"
+          },
+          {
+            "id": "w41-iii-3a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "MBP Mar,Flx 1-2"
+          },
+          {
+            "id": "w41-iii-3a-2026-thu-0-1-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Vaš 19-20"
+          },
+          {
+            "id": "w41-iii-3a-2026-thu-2-3-12",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Váv,Sot 15-16"
+          },
+          {
+            "id": "w41-iii-3a-2026-thu-4-5-13",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Váv,Sot 5-6"
+          },
+          {
+            "id": "w41-iii-3a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Váv,Sot 7-8"
+          },
+          {
+            "id": "w41-iii-3a-2026-fri-0-1-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Bou 31-32"
+          },
+          {
+            "id": "w41-iii-3a-2026-fri-2-3-16",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Koš 27-28"
+          },
+          {
+            "id": "w41-iii-3a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 27-28"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w41-iii-4a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Syc 19-20"
+          },
+          {
+            "id": "w41-iii-4a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Nok 11-12"
+          },
+          {
+            "id": "w41-iii-4a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Syc 21-22"
+          },
+          {
+            "id": "w41-iii-4a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Raš 21-22"
+          },
+          {
+            "id": "w41-iii-4a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Vys 27-28"
+          },
+          {
+            "id": "w41-iii-4a-2026-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Jav,Maz 016, 017 17-18"
+          },
+          {
+            "id": "w41-iii-4a-2026-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Syc 23-24"
+          },
+          {
+            "id": "w41-iii-4a-2026-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "MBP Mar,Flx 3-4"
+          },
+          {
+            "id": "w41-iii-4a-2026-wed-0-5-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Kop,Nov Hloubětín 13-18"
+          },
+          {
+            "id": "w41-iii-4a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Jav,Maz 028, 017 19-20"
+          },
+          {
+            "id": "w41-iii-4a-2026-thu-0-1-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Kop,Nov 11-12"
+          },
+          {
+            "id": "w41-iii-4a-2026-thu-2-3-12",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Jar 31-32"
+          },
+          {
+            "id": "w41-iii-4a-2026-thu-4-5-13",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vys 29-30"
+          },
+          {
+            "id": "w41-iii-4a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Syc 25-26"
+          },
+          {
+            "id": "w41-iii-4a-2026-fri-0-1-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Syc 27-28"
+          },
+          {
+            "id": "w41-iii-4a-2026-fri-2-3-16",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Vys 31-32"
+          },
+          {
+            "id": "w41-iii-4a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 13-14"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": []
+      }
+    },
+    {
+      "id": "42",
+      "label": "Týden 42",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-16",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-10-12"
+        },
+        {
+          "id": "tue",
+          "date": "2026-10-13"
+        },
+        {
+          "id": "wed",
+          "date": "2026-10-14"
+        },
+        {
+          "id": "thu",
+          "date": "2026-10-15"
+        },
+        {
+          "id": "fri",
+          "date": "2026-10-16"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w42-zop-bs-3a-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šaf,Jad Kladno 13-18"
+          },
+          {
+            "id": "w42-zop-bs-3a-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "MBP Koa,Flx 1-2"
+          },
+          {
+            "id": "w42-zop-bs-3a-tue-0-3-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "SPP Čer 21-24"
+          },
+          {
+            "id": "w42-zop-bs-3a-tue-4-5-4",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "AIT Kou,Maz 017, 029 21-22"
+          },
+          {
+            "id": "w42-zop-bs-3a-tue-7-8-5",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čer 017, 029 25-26"
+          },
+          {
+            "id": "w42-zop-bs-3a-wed-0-3-6",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Šaf,Jad souč. cv. SPOLANA 13-16"
+          },
+          {
+            "id": "w42-zop-bs-3a-wed-4-5-7",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čer souč. cv. SPOLANA 27-28"
+          },
+          {
+            "id": "w42-zop-bs-3a-wed-7-8-8",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čer souč. cv. SPOLANA 29-30"
+          },
+          {
+            "id": "w42-zop-bs-3a-thu-0-5-9",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PRA Kas RADIKALIZACE - přednáška externista 37-42"
+          },
+          {
+            "id": "w42-zop-bs-3a-thu-7-8-10",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Kas RADIKALIZACE - přednáška externista 43-44"
+          },
+          {
+            "id": "w42-zop-bs-3a-fri-0-1-11",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Čer 31-32"
+          },
+          {
+            "id": "w42-zop-bs-3a-fri-2-3-12",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Čer 425, 6A - PC 33-34"
+          },
+          {
+            "id": "w42-zop-bs-3a-fri-4-5-13",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas 028, 029 . 45-46"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w42-iii-1a-2026-mon-0-3-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Šmo,Han 13-16"
+          },
+          {
+            "id": "w42-iii-1a-2026-mon-4-5-2",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "MBP Mar,Flx 1-2"
+          },
+          {
+            "id": "w42-iii-1a-2026-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Šmo,Han 11-12"
+          },
+          {
+            "id": "w42-iii-1a-2026-tue-0-1-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SJP Mar,Flx 3-4"
+          },
+          {
+            "id": "w42-iii-1a-2026-tue-2-3-5",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Jav 016, 029 25-26"
+          },
+          {
+            "id": "w42-iii-1a-2026-tue-4-5-6",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Šmo,Han 13-14"
+          },
+          {
+            "id": "w42-iii-1a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Nok 15-16"
+          },
+          {
+            "id": "w42-iii-1a-2026-wed-0-1-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Kou,Jav souč. cv. SPOLANA 27-28"
+          },
+          {
+            "id": "w42-iii-1a-2026-wed-2-3-9",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Dou souč. cv. SPOLANA 21-22"
+          },
+          {
+            "id": "w42-iii-1a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Nok souč. cv. SPOLANA 17-18"
+          },
+          {
+            "id": "w42-iii-1a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Šmo,Han souč. cv. SPOLANA 15-16"
+          },
+          {
+            "id": "w42-iii-1a-2026-thu-0-1-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Šmo,Han 17-18"
+          },
+          {
+            "id": "w42-iii-1a-2026-thu-2-3-13",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Nok 19-20"
+          },
+          {
+            "id": "w42-iii-1a-2026-thu-4-5-14",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Bul,Nok . 23-24"
+          },
+          {
+            "id": "w42-iii-1a-2026-thu-7-8-15",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul 016, 028 . 25-26"
+          },
+          {
+            "id": "w42-iii-1a-2026-fri-0-1-16",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Nok,Jed . 21-22"
+          },
+          {
+            "id": "w42-iii-1a-2026-fri-2-3-17",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "MBP Mar,Flx 3-4"
+          },
+          {
+            "id": "w42-iii-1a-2026-fri-4-5-18",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Šiz 29-30"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w42-iii-2a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Hul,Šen 17-18"
+          },
+          {
+            "id": "w42-iii-2a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "MBP Mar,Flx 3-4"
+          },
+          {
+            "id": "w42-iii-2a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Hul,Šen 9-10"
+          },
+          {
+            "id": "w42-iii-2a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Hul,Šen 11-12"
+          },
+          {
+            "id": "w42-iii-2a-2026-tue-0-5-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šaf,Jad Hloubětín 13-18"
+          },
+          {
+            "id": "w42-iii-2a-2026-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SJP Mar,Flx 3-4"
+          },
+          {
+            "id": "w42-iii-2a-2026-wed-0-5-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Kac FZŠ Příbram/Polygon VZ Praha 11-16"
+          },
+          {
+            "id": "w42-iii-2a-2026-wed-7-8-8",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Kac FZŠ Příbram/Polygon VZ Praha 17-18"
+          },
+          {
+            "id": "w42-iii-2a-2026-thu-0-1-9",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Jav 016, 028 21-22"
+          },
+          {
+            "id": "w42-iii-2a-2026-thu-2-3-10",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Pet 31-32"
+          },
+          {
+            "id": "w42-iii-2a-2026-thu-4-5-11",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "MBP Mar,Flx 5-6"
+          },
+          {
+            "id": "w42-iii-2a-2026-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed 17-18"
+          },
+          {
+            "id": "w42-iii-2a-2026-fri-0-1-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Jav 016, 028 23-24"
+          },
+          {
+            "id": "w42-iii-2a-2026-fri-2-3-14",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Jed 19-20"
+          },
+          {
+            "id": "w42-iii-2a-2026-fri-4-5-15",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Uhe 31-32"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w42-iii-3a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Maz 016, 029 21-22"
+          },
+          {
+            "id": "w42-iii-3a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 21-22"
+          },
+          {
+            "id": "w42-iii-3a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Bou . 33-34"
+          },
+          {
+            "id": "w42-iii-3a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Bou S33 . 35-36"
+          },
+          {
+            "id": "w42-iii-3a-2026-tue-0-5-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Váv,Sot Kladno 19-24"
+          },
+          {
+            "id": "w42-iii-3a-2026-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vlč 29-30"
+          },
+          {
+            "id": "w42-iii-3a-2026-wed-0-1-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Nok souč. cv. SPOLANA 17-18"
+          },
+          {
+            "id": "w42-iii-3a-2026-wed-2-3-8",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Vlč souč. cv. SPOLANA 31-32"
+          },
+          {
+            "id": "w42-iii-3a-2026-wed-4-5-9",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Vaš souč. cv. SPOLANA 23-24"
+          },
+          {
+            "id": "w42-iii-3a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Váv,Sot souč. cv. SPOLANA 17-18"
+          },
+          {
+            "id": "w42-iii-3a-2026-thu-0-5-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Vaš FZŠ Příbram/Polygon VZ Praha 5-10"
+          },
+          {
+            "id": "w42-iii-3a-2026-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Vaš FZŠ Příbram/Polygon VZ Praha 11-12"
+          },
+          {
+            "id": "w42-iii-3a-2026-fri-0-1-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SJP Mar,Flx 5-6"
+          },
+          {
+            "id": "w42-iii-3a-2026-fri-2-3-14",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SDP Vaš 25-26"
+          },
+          {
+            "id": "w42-iii-3a-2026-fri-4-5-15",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "MBP Mar,Flx 3-4"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w42-iii-4a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Jar . 33-34"
+          },
+          {
+            "id": "w42-iii-4a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Jar S33 . 35-36"
+          },
+          {
+            "id": "w42-iii-4a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Kop,Nov 13-14"
+          },
+          {
+            "id": "w42-iii-4a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Kop,Nov TV - SŠ . 11-12"
+          },
+          {
+            "id": "w42-iii-4a-2026-tue-0-5-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Syc FZŠ Příbram/Polygon VZ Praha 3-8"
+          },
+          {
+            "id": "w42-iii-4a-2026-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Syc FZŠ Příbram/Polygon VZ Praha 9-10"
+          },
+          {
+            "id": "w42-iii-4a-2026-wed-0-1-7",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Raš souč. cv. SPOLANA 23-24"
+          },
+          {
+            "id": "w42-iii-4a-2026-wed-2-3-8",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Jav,Maz souč. cv. SPOLANA 21-22"
+          },
+          {
+            "id": "w42-iii-4a-2026-wed-4-5-9",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Kop,Nov souč. cv. SPOLANA 15-16"
+          },
+          {
+            "id": "w42-iii-4a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Jed souč. cv. SPOLANA 15-16"
+          },
+          {
+            "id": "w42-iii-4a-2026-thu-0-5-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Kop,Nov Kladno 19-24"
+          },
+          {
+            "id": "w42-iii-4a-2026-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "MBP Mar,Flx 5-6"
+          },
+          {
+            "id": "w42-iii-4a-2026-fri-0-1-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Jar . 37-38"
+          },
+          {
+            "id": "w42-iii-4a-2026-fri-2-3-14",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Jar 016, 028 . 39-40"
+          },
+          {
+            "id": "w42-iii-4a-2026-fri-4-5-15",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed 17-18"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": []
+      }
+    },
+    {
+      "id": "43",
+      "label": "Týden 43",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-23",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-10-19"
+        },
+        {
+          "id": "tue",
+          "date": "2026-10-20"
+        },
+        {
+          "id": "wed",
+          "date": "2026-10-21"
+        },
+        {
+          "id": "thu",
+          "date": "2026-10-22"
+        },
+        {
+          "id": "fri",
+          "date": "2026-10-23"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w43-zop-bs-3a-mon-0-3-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "KRI Bul 23-26"
+          },
+          {
+            "id": "w43-zop-bs-3a-mon-4-5-2",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Šaf,Jad 19-20"
+          },
+          {
+            "id": "w43-zop-bs-3a-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "MBP Koa,Flx 3-4"
+          },
+          {
+            "id": "w43-zop-bs-3a-tue-0-5-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Hab FZŠ Sosnová/Polygon VZ Praha 13-18"
+          },
+          {
+            "id": "w43-zop-bs-3a-tue-7-8-5",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Hab FZŠ Sosnová/Polygon VZ Praha 19-20"
+          },
+          {
+            "id": "w43-zop-bs-3a-wed-0-5-6",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Šaf,Jad Kladno 19-24"
+          },
+          {
+            "id": "w43-zop-bs-3a-wed-7-8-7",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "DPČ Hab . 3-4"
+          },
+          {
+            "id": "w43-zop-bs-3a-thu-0-5-8",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "DPČ Hab Řízení provozu 5-10"
+          },
+          {
+            "id": "w43-zop-bs-3a-thu-7-8-9",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Hab 23-24"
+          },
+          {
+            "id": "w43-zop-bs-3a-fri-0-1-10",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Šaf,Jad 21-22"
+          },
+          {
+            "id": "w43-zop-bs-3a-fri-2-3-11",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Čer 35-36"
+          },
+          {
+            "id": "w43-zop-bs-3a-fri-4-5-12",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas . 47-48"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w43-iii-1a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Šiz 31-32"
+          },
+          {
+            "id": "w43-iii-1a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "MBP Mar,Flx 5-6"
+          },
+          {
+            "id": "w43-iii-1a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Dou 23-24"
+          },
+          {
+            "id": "w43-iii-1a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Bul 27-28"
+          },
+          {
+            "id": "w43-iii-1a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Šmo,Han 19-20"
+          },
+          {
+            "id": "w43-iii-1a-2026-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PPČ Šmo,Han TV - SŠ . 11-12"
+          },
+          {
+            "id": "w43-iii-1a-2026-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SDP Dou 25-26"
+          },
+          {
+            "id": "w43-iii-1a-2026-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SJP Mar,Flx 5-6"
+          },
+          {
+            "id": "w43-iii-1a-2026-wed-0-5-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w43-iii-1a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w43-iii-1a-2026-thu-0-5-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w43-iii-1a-2026-thu-7-8-12",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w43-iii-1a-2026-fri-0-5-13",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w43-iii-2a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PRA Pet . 33-34"
+          },
+          {
+            "id": "w43-iii-2a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PRA Pet 425, 6A - PC . 35-36"
+          },
+          {
+            "id": "w43-iii-2a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Liš,Jed . 23-24"
+          },
+          {
+            "id": "w43-iii-2a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Liš S33 . 25-26"
+          },
+          {
+            "id": "w43-iii-2a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SJP Mar,Flx 5-6"
+          },
+          {
+            "id": "w43-iii-2a-2026-tue-2-3-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Jav 016, 028 25-26"
+          },
+          {
+            "id": "w43-iii-2a-2026-tue-4-5-7",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Hul,Šen 19-20"
+          },
+          {
+            "id": "w43-iii-2a-2026-tue-7-8-8",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PPČ Hul,Šen . 11-12"
+          },
+          {
+            "id": "w43-iii-2a-2026-wed-0-3-9",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Hul,Šen 13-16"
+          },
+          {
+            "id": "w43-iii-2a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Hul,Šen 21-22"
+          },
+          {
+            "id": "w43-iii-2a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Lia,Jav 016, 028 27-28"
+          },
+          {
+            "id": "w43-iii-2a-2026-thu-0-5-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PPZ Hul,Šen Kladno 19-24"
+          },
+          {
+            "id": "w43-iii-2a-2026-thu-7-8-13",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Kac 29-30"
+          },
+          {
+            "id": "w43-iii-2a-2026-fri-0-5-14",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "SPP Uhe . 33-38"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w43-iii-3a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Váv,Sot 19-20"
+          },
+          {
+            "id": "w43-iii-3a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Lia,Maz 028, 017 23-24"
+          },
+          {
+            "id": "w43-iii-3a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "MBP Mar,Flx 5-6"
+          },
+          {
+            "id": "w43-iii-3a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KPE Nok 19-20"
+          },
+          {
+            "id": "w43-iii-3a-2026-tue-0-1-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Maz 028, 017 25-26"
+          },
+          {
+            "id": "w43-iii-3a-2026-tue-2-5-6",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 33-36"
+          },
+          {
+            "id": "w43-iii-3a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vlč . 37-38"
+          },
+          {
+            "id": "w43-iii-3a-2026-wed-0-1-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Lia,Maz 028, 017 27-28"
+          },
+          {
+            "id": "w43-iii-3a-2026-wed-2-3-9",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Váv,Sot 21-22"
+          },
+          {
+            "id": "w43-iii-3a-2026-wed-4-5-10",
+            "dayId": "wed",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PPČ Váv,Sot TV - SŠ . 11-12"
+          },
+          {
+            "id": "w43-iii-3a-2026-wed-7-8-11",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Vaš 27-28"
+          },
+          {
+            "id": "w43-iii-3a-2026-thu-0-1-12",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Vaš 29-30"
+          },
+          {
+            "id": "w43-iii-3a-2026-thu-2-3-13",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Nok,Jed . 21-22"
+          },
+          {
+            "id": "w43-iii-3a-2026-thu-4-5-14",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "TPŘ Váv,Sot 9-10"
+          },
+          {
+            "id": "w43-iii-3a-2026-thu-7-8-15",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "TPŘ Váv,Sot 11-12"
+          },
+          {
+            "id": "w43-iii-3a-2026-fri-0-3-16",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "SPP Vlč . 39-42"
+          },
+          {
+            "id": "w43-iii-3a-2026-fri-4-5-17",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Vlč 016, 028 . 43-44"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w43-iii-4a-2026-mon-0-1-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Jav,Maz 016, 017 23-24"
+          },
+          {
+            "id": "w43-iii-4a-2026-mon-2-3-2",
+            "dayId": "mon",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "ŘSV Syc . 11-12"
+          },
+          {
+            "id": "w43-iii-4a-2026-mon-4-5-3",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Raš,Nok . 25-26"
+          },
+          {
+            "id": "w43-iii-4a-2026-mon-7-8-4",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "KRI Raš 028, 029 . 27-28"
+          },
+          {
+            "id": "w43-iii-4a-2026-tue-0-3-5",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Kop,Nov 9-12"
+          },
+          {
+            "id": "w43-iii-4a-2026-tue-4-5-6",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SJP Mar,Flx 5-6"
+          },
+          {
+            "id": "w43-iii-4a-2026-tue-7-8-7",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Kop,Nov 17-18"
+          },
+          {
+            "id": "w43-iii-4a-2026-wed-0-1-8",
+            "dayId": "wed",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Kop,Nov 19-20"
+          },
+          {
+            "id": "w43-iii-4a-2026-wed-2-5-9",
+            "dayId": "wed",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "TPŘ Kop,Nov 13-16"
+          },
+          {
+            "id": "w43-iii-4a-2026-wed-7-8-10",
+            "dayId": "wed",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SDP Syc 29-30"
+          },
+          {
+            "id": "w43-iii-4a-2026-thu-0-1-11",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed 19-20"
+          },
+          {
+            "id": "w43-iii-4a-2026-thu-2-3-12",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "PDP Kop,Nov 21-22"
+          },
+          {
+            "id": "w43-iii-4a-2026-thu-4-5-13",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KPE Jed,Nok . 21-22"
+          },
+          {
+            "id": "w43-iii-4a-2026-thu-7-8-14",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "AIT Jav,Maz 016, 017 25-26"
+          },
+          {
+            "id": "w43-iii-4a-2026-fri-0-5-15",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "SPP Vys . 33-38"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": []
+      }
+    },
+    {
+      "id": "44",
+      "label": "Týden 44",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-30",
+      "days": [
+        {
+          "id": "mon",
+          "date": "2026-10-26"
+        },
+        {
+          "id": "tue",
+          "date": "2026-10-27"
+        },
+        {
+          "id": "wed",
+          "date": "2026-10-28"
+        },
+        {
+          "id": "thu",
+          "date": "2026-10-29"
+        },
+        {
+          "id": "fri",
+          "date": "2026-10-30"
+        }
+      ],
+      "schedules": {
+        "ZOP BS-3A": [
+          {
+            "id": "w44-zop-bs-3a-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "PRA Kas Korupce 49-54"
+          },
+          {
+            "id": "w44-zop-bs-3a-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Kas,Vod Korupce 55-56"
+          },
+          {
+            "id": "w44-zop-bs-3a-tue-0-1-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Bul . 27-28"
+          },
+          {
+            "id": "w44-zop-bs-3a-tue-2-3-4",
+            "dayId": "tue",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Bul S33 . 29-30"
+          },
+          {
+            "id": "w44-zop-bs-3a-tue-4-5-5",
+            "dayId": "tue",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Šaf,Jad 23-24"
+          },
+          {
+            "id": "w44-zop-bs-3a-tue-7-8-6",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Čer 37-38"
+          },
+          {
+            "id": "w44-zop-bs-3a-thu-0-1-7",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SPP Čer 39-40"
+          },
+          {
+            "id": "w44-zop-bs-3a-thu-2-3-8",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "AIT Kou,Maz 017, 029 23-24"
+          },
+          {
+            "id": "w44-zop-bs-3a-thu-4-5-9",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čer 017, 029 41-42"
+          },
+          {
+            "id": "w44-zop-bs-3a-thu-7-8-10",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Šaf,Jad úplovna - SŠ 25-26"
+          },
+          {
+            "id": "w44-zop-bs-3a-fri-0-1-11",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Hab 25-26"
+          },
+          {
+            "id": "w44-zop-bs-3a-fri-2-3-12",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KPE Jed VR 23-24"
+          },
+          {
+            "id": "w44-zop-bs-3a-fri-4-5-13",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Kas . 57-58"
+          }
+        ],
+        "III/1A/2026": [
+          {
+            "id": "w44-iii-1a-2026-mon-0-3-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "SDP Dou 27-30"
+          },
+          {
+            "id": "w44-iii-1a-2026-mon-4-5-2",
+            "dayId": "mon",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Čep 31-32"
+          },
+          {
+            "id": "w44-iii-1a-2026-mon-7-8-3",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PDP Šmo,Han 21-22"
+          },
+          {
+            "id": "w44-iii-1a-2026-tue-0-5-4",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "ŘSV Dou FZŠ Příbram/Polygon VZ Praha 11-16"
+          },
+          {
+            "id": "w44-iii-1a-2026-tue-7-8-5",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Dou FZŠ Příbram/Polygon VZ Praha 17-18"
+          },
+          {
+            "id": "w44-iii-1a-2026-thu-0-1-6",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KRI Bul 29-30"
+          },
+          {
+            "id": "w44-iii-1a-2026-thu-2-3-7",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Bul S33 . 31-32"
+          },
+          {
+            "id": "w44-iii-1a-2026-thu-4-5-8",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PRA Šiz . 33-34"
+          },
+          {
+            "id": "w44-iii-1a-2026-thu-7-8-9",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "PRA Šiz S33 . 35-36"
+          },
+          {
+            "id": "w44-iii-1a-2026-fri-0-5-10",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "SPP Čep . 33-38"
+          }
+        ],
+        "III/2A/2026": [
+          {
+            "id": "w44-iii-2a-2026-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-2a-2026-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-2a-2026-tue-0-5-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-2a-2026-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-2a-2026-thu-0-3-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "SPP Uhe . 39-42"
+          },
+          {
+            "id": "w44-iii-2a-2026-thu-4-5-6",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "SPP Uhe 425, 6A - PC . 43-44"
+          },
+          {
+            "id": "w44-iii-2a-2026-thu-7-8-7",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "ŘSV Kac . 19-20"
+          },
+          {
+            "id": "w44-iii-2a-2026-fri-0-1-8",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "KPE Jed,Vod . 21-22"
+          },
+          {
+            "id": "w44-iii-2a-2026-fri-2-3-9",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "SPP Uhe . 45-46"
+          },
+          {
+            "id": "w44-iii-2a-2026-fri-4-5-10",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Hul,Šen 23-24"
+          }
+        ],
+        "III/3A/2026": [
+          {
+            "id": "w44-iii-3a-2026-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-3a-2026-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-3a-2026-tue-0-5-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-3a-2026-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-3a-2026-thu-0-3-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 3,
+            "raw": "TPŘ Váv,Sot 13-16"
+          },
+          {
+            "id": "w44-iii-3a-2026-thu-4-5-6",
+            "dayId": "thu",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "PDP Váv,Sot 23-24"
+          },
+          {
+            "id": "w44-iii-3a-2026-thu-7-8-7",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vlč . 45-46"
+          },
+          {
+            "id": "w44-iii-3a-2026-fri-0-1-8",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "SDP Vaš . 31-32"
+          },
+          {
+            "id": "w44-iii-3a-2026-fri-2-3-9",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Koš 29-30"
+          },
+          {
+            "id": "w44-iii-3a-2026-fri-4-5-10",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Koš S33 . 31-32"
+          }
+        ],
+        "III/4A/2026": [
+          {
+            "id": "w44-iii-4a-2026-mon-0-5-1",
+            "dayId": "mon",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-4a-2026-mon-7-8-2",
+            "dayId": "mon",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-4a-2026-tue-0-5-3",
+            "dayId": "tue",
+            "slotStart": 0,
+            "slotEnd": 5,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-4a-2026-tue-7-8-4",
+            "dayId": "tue",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "Řádná dovolená"
+          },
+          {
+            "id": "w44-iii-4a-2026-thu-0-1-5",
+            "dayId": "thu",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "PDP Kop,Nov 23-24"
+          },
+          {
+            "id": "w44-iii-4a-2026-thu-2-5-6",
+            "dayId": "thu",
+            "slotStart": 2,
+            "slotEnd": 5,
+            "raw": "SPP Vys . 39-42"
+          },
+          {
+            "id": "w44-iii-4a-2026-thu-7-8-7",
+            "dayId": "thu",
+            "slotStart": 7,
+            "slotEnd": 8,
+            "raw": "SPP Vys 425, 6A - PC . 43-44"
+          },
+          {
+            "id": "w44-iii-4a-2026-fri-0-1-8",
+            "dayId": "fri",
+            "slotStart": 0,
+            "slotEnd": 1,
+            "raw": "AIT Jav,Maz 016, 017 27-28"
+          },
+          {
+            "id": "w44-iii-4a-2026-fri-2-3-9",
+            "dayId": "fri",
+            "slotStart": 2,
+            "slotEnd": 3,
+            "raw": "KRI Raš 29-30"
+          },
+          {
+            "id": "w44-iii-4a-2026-fri-4-5-10",
+            "dayId": "fri",
+            "slotStart": 4,
+            "slotEnd": 5,
+            "raw": "KRI Raš 028, 017 . 31-32"
+          }
+        ],
+        "TECC AB-26A": [],
+        "SZZ-3A": []
+      }
+    }
+  ]
+}
