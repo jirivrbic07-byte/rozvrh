@@ -38,6 +38,38 @@ describe('říjnový rozvrh', () => {
   });
 });
 
+describe('třídy ze zdrojového Excelu', () => {
+  it('nabízí ročníky I, II i III včetně kmenových učeben', () => {
+    expect(scheduleData.classes).toEqual(
+      expect.arrayContaining([
+        'ZOP BS-3A',
+        'I/1A/2026',
+        'I/5A/2026',
+        'II/1A/2026',
+        'II/4A/2026',
+        'III/1A/2026',
+        'III/3A/2026',
+        'III/4A/2026',
+      ]),
+    );
+    expect(scheduleData.classrooms).toMatchObject({
+      'ZOP BS-3A': '26',
+      'I/1A/2026': '18',
+      'II/1A/2026': '123',
+      'III/3A/2026': '122',
+      'III/4A/2026': '25',
+    });
+  });
+
+  it('sloučí říjnové označení I. ročníku s p. do stejné třídy', () => {
+    const week36 = scheduleData.weeks.find((week) => week.id === '36');
+    const week40 = scheduleData.weeks.find((week) => week.id === '40');
+    expect(week36 && getBlocks(week36, 'I/1A/2026').length > 0).toBe(true);
+    expect(week40 && getBlocks(week40, 'I/1A/2026').length > 0).toBe(true);
+    expect(scheduleData.classes.some((name) => name.includes(' p.'))).toBe(false);
+  });
+});
+
 describe('věrnost zdrojovému rozvrhu', () => {
   it('zachovává všechny zdrojové bloky bez nedoložených ručních změn', () => {
     for (const week of scheduleData.weeks) {

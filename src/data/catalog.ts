@@ -137,6 +137,14 @@ export const SUBJECTS: Record<string, SubjectDefinition> = {
     text: '#765614',
     accent: '#b89337',
   },
+  ZZK: {
+    code: 'ZZK',
+    name: 'Závěrečná zkouška',
+    background: '#eceff4',
+    border: '#c5cedb',
+    text: '#3d4a5c',
+    accent: '#6b7c91',
+  },
   'IS-ETŘ': { code: 'IS-ETŘ', name: 'Informační systém ETŘ', background: '#eef4ff', border: '#b8cff7', text: '#31538c', accent: '#648bd0' },
   SCP: { code: 'SCP', name: 'Služba cizinecké policie', background: '#e8f8f2', border: '#a9dfcb', text: '#216650', accent: '#51a989' },
   ZDP: { code: 'ZDP', name: 'Zdravotnická příprava', background: '#e8f8ed', border: '#abdcb9', text: '#28663b', accent: '#55a66d' },
@@ -163,8 +171,8 @@ export const TEACHERS: Record<string, TeacherDefinition> = {
   Lia: { code: 'Lia', name: 'Liška Martin' },
   Mar: { code: 'Mar', name: 'Markup Jan' },
   Nok: { code: 'Nok', name: 'Nováková Lucie' },
-  'Při': { code: 'Při', name: 'Přibyl Miroslav' },
-  Sot: { code: 'Sot', name: 'Sotular Lubomír' },
+  'Při': { code: 'Při', name: 'Přibyl Miloslav' },
+  Sot: { code: 'Sot', name: 'Sotulář Lubomír' },
   'Šen': { code: 'Šen', name: 'Šenk Michal' },
   'Šmo': { code: 'Šmo', name: 'Šmol Vilém' },
   Uhe: { code: 'Uhe', name: 'Uher Petr' },
@@ -174,7 +182,7 @@ export const TEACHERS: Record<string, TeacherDefinition> = {
   Bun: { code: 'Bun', name: 'Buncová Naděžda' },
   'Čer': { code: 'Čer', name: 'Čermáková Veronika' },
   Flx: { code: 'Flx', name: 'Flax Jakub' },
-  Hej: { code: 'Hej', name: 'Heřmánek Jakub' },
+  'Heř': { code: 'Heř', name: 'Heřmánek Jakub' },
   Jan: { code: 'Jan', name: 'Jandová Eva' },
   Jed: { code: 'Jed', name: 'Jedličková Martina' },
   Kno: { code: 'Kno', name: 'Knotek Václav' },
@@ -228,6 +236,7 @@ export const LOCATIONS = [
   'DBA – Kladno',
   'DBA – Nymburk',
   'DBA – Praha-venkov Vinoř',
+  '6A-P23',
 ];
 
 export const getSubject = (code: string): SubjectDefinition =>

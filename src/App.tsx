@@ -129,6 +129,7 @@ export default function App() {
         <main className="mx-auto w-full max-w-[1600px] px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
           <ScheduleControls
             classes={classIds}
+            classrooms={scheduleData.classrooms}
             weeks={scheduleData.weeks}
             selectedClass={selectedClass}
             selectedWeekId={selectedWeek.id}
@@ -146,6 +147,11 @@ export default function App() {
                 <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-brand">
                   {selectedClass}
                 </p>
+                {scheduleData.classrooms?.[selectedClass] && (
+                  <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-extrabold text-slate-600">
+                    uč. {scheduleData.classrooms[selectedClass]}
+                  </span>
+                )}
                 <span className="rounded-full bg-blue-50 px-2 py-0.5 text-[10px] font-extrabold text-brand">
                   {formatWeekRange(selectedWeek)}
                 </span>

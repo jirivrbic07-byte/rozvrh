@@ -1,6 +1,6 @@
 # Rozvrh výcviku
 
-Responzivní aplikace pro školní a výcvikový rozvrh. Data rozvrhu pokrývají týdny 36–44 (září a říjen 2026), jsou převedena z dodaných Excelů a zahrnují také třídu `III/4A/2026`. Volba třídy se ukládá do `localStorage` a osobní poznámky se synchronizují přes Firebase.
+Responzivní aplikace pro školní a výcvikový rozvrh. Data rozvrhu pokrývají týdny 36–44 (září a říjen 2026), jsou převedena z dodaných Excelů a zahrnují třídy `ZOP BS-3A`, I/1A–I/5A, II/1A–II/4A a III/1A–III/4A včetně kmenových učeben. Volba třídy se ukládá do `localStorage` a osobní poznámky se synchronizují přes Firebase.
 
 V detailu hodiny lze přidat PDF, DOC a DOCX dokumenty do velikosti 20 MB. Soubory se ukládají lokálně do IndexedDB daného prohlížeče, takže nevyžadují Firebase Storage ani placený tarif. Nejsou však automaticky dostupné na jiném zařízení. Průzkumník sdružuje poznámky, popisy a dokumenty a umí je filtrovat podle více předmětů a rozsahu data výuky.
 

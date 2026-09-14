@@ -47,6 +47,7 @@ export interface ScheduleWeek {
 export interface ScheduleData {
   source: string;
   classes: string[];
+  classrooms?: Record<string, string>;
   weeks: ScheduleWeek[];
 }
 

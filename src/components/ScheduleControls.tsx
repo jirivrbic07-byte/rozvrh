@@ -5,6 +5,7 @@ import type { ScheduleWeek } from '../types';
 
 interface ScheduleControlsProps {
   classes: string[];
+  classrooms?: Record<string, string>;
   weeks: ScheduleWeek[];
   selectedClass: string;
   selectedWeekId: string;
@@ -16,6 +17,7 @@ interface ScheduleControlsProps {
 
 export function ScheduleControls({
   classes,
+  classrooms = {},
   weeks,
   selectedClass,
   selectedWeekId,
@@ -39,7 +41,7 @@ export function ScheduleControls({
   return (
     <section className="rounded-2.5xl border border-slate-200/90 bg-white p-3 shadow-card sm:p-4">
       <div className="flex flex-col gap-3 xl:flex-row xl:items-center">
-        <label className="relative block shrink-0 xl:w-60">
+        <label className="relative block shrink-0 xl:w-72">
           <span className="sr-only">Vybrat třídu</span>
           <UsersRound
             size={18}
@@ -51,7 +53,9 @@ export function ScheduleControls({
             className="h-12 w-full appearance-none rounded-xl border border-slate-200 bg-slate-50 pl-11 pr-9 text-sm font-bold text-ink outline-none transition focus:border-brand focus:ring-4 focus:ring-blue-100"
           >
             {classes.map((className) => (
-              <option key={className}>{className}</option>
+              <option key={className} value={className}>
+                {classrooms[className] ? `${className} · uč. ${classrooms[className]}` : className}
+              </option>
             ))}
           </select>
           <ChevronRight

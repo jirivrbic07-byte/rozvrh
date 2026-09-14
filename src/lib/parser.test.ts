@@ -11,6 +11,15 @@ describe('parseScheduleCell', () => {
     });
   });
 
+  it('parses a teacher code with diacritics', () => {
+    expect(parseScheduleCell('PPZ Heř,Jad Areál Suchý nácvik 1-6')).toEqual({
+      subjectCode: 'PPZ',
+      teachers: ['Heř', 'Jad'],
+      location: 'Areál Suchý nácvik',
+      hours: [1, 2, 3, 4, 5, 6],
+    });
+  });
+
   it('parses a practical location and a longer range', () => {
     expect(parseScheduleCell('PPZ Šaf,Jad Areál Suchý nácvik 1-6')).toEqual({
       subjectCode: 'PPZ',
