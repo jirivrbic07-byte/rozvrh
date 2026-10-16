@@ -29,8 +29,14 @@ CLASS_ORDER = [
     "III/4A/2026",
     "ZOP VŠ-4A",
     "TECC AB-26A",
+    "TECC LE-5A",
+    "TECC LE-6A",
     "SZZ-3A",
     "SZZ-4A",
+    "SZZ-5A",
+    "SZZ-6A",
+    "PSZ-18A",
+    "IS ETŘ-Z-12A",
     "VZOČ-10A",
 ]
 
@@ -70,6 +76,18 @@ def normalize_class_name(value: object) -> str | None:
     return re.sub(r"\s+p\.\s*$", "", text, flags=re.IGNORECASE).strip()
 
 
+def find_sheet_layout(worksheet) -> tuple[int, int, int] | None:
+    """Vrátí řádky záhlaví týdne, dnů a čísel hodin.
+
+    Listopadový týden 47 má v Excelu dva prázdné řádky nad záhlavím.
+    """
+    for row in range(1, 16):
+        value = worksheet.cell(row, 1).value
+        if re.search(r"Týden\s*:", str(value or ""), re.IGNORECASE):
+            return row, row + 1, row + 2
+    return None
+
+
 def classroom_below(worksheet, row_number: int) -> str | None:
     value = worksheet.cell(row_number + 1, 1).value
     if isinstance(value, (int, float)):
@@ -102,16 +120,18 @@ def main() -> None:
     for source in sources:
         workbook = openpyxl.load_workbook(source, data_only=False)
         for worksheet in workbook.worksheets:
-            week_header = worksheet.cell(1, 1).value
-            if not re.search(r"Týden\s*:", str(week_header or ""), re.IGNORECASE):
+            layout = find_sheet_layout(worksheet)
+            if layout is None:
                 continue
+            header_row, day_row, slot_row = layout
+            week_header = worksheet.cell(header_row, 1).value
             week_number = parse_week_number(week_header)
             if week_number in seen_week_numbers:
                 raise ValueError(f"Týden {week_number} je ve vstupních souborech dvakrát")
             seen_week_numbers.add(week_number)
             day_columns = [
                 cell.column
-                for cell in worksheet[2]
+                for cell in worksheet[day_row]
                 if isinstance(cell.value, str)
                 and re.match(r"^(Po|Út|St|Čt|Pá)\s", cell.value.strip())
             ][:5]
@@ -120,7 +140,7 @@ def main() -> None:
 
             days = []
             for day_index, column in enumerate(day_columns):
-                date_iso = parse_header_date(worksheet.cell(2, column).value)
+                date_iso = parse_header_date(worksheet.cell(day_row, column).value)
                 days.append({"id": DAY_IDS[day_index], "date": date_iso})
 
             merge_anchors: dict[tuple[int, int], tuple[int, int]] = {}
@@ -143,7 +163,15 @@ def main() -> None:
                     )
 
             parsed_weeks.append(
-                (week_number, worksheet, class_rows, merge_anchors, days, day_columns)
+                (
+                    week_number,
+                    worksheet,
+                    class_rows,
+                    merge_anchors,
+                    days,
+                    day_columns,
+                    slot_row,
+                )
             )
 
     classes = ordered_classes(discovered_classes)
@@ -153,7 +181,15 @@ def main() -> None:
         if votes
     }
 
-    for week_number, worksheet, class_rows, merge_anchors, days, day_columns in parsed_weeks:
+    for (
+        week_number,
+        worksheet,
+        class_rows,
+        merge_anchors,
+        days,
+        day_columns,
+        slot_row,
+    ) in parsed_weeks:
         schedules: dict[str, list[dict[str, object]]] = {
             class_name: [] for class_name in classes
         }
@@ -186,8 +222,8 @@ def main() -> None:
                     else worksheet.max_column
                 )
                 max_col = min(max_col, day_end)
-                slot_start = worksheet.cell(3, min_col).value
-                slot_end = worksheet.cell(3, max_col).value
+                slot_start = worksheet.cell(slot_row, min_col).value
+                slot_end = worksheet.cell(slot_row, max_col).value
                 if not isinstance(slot_start, int) or not isinstance(slot_end, int):
                     continue
 
@@ -220,7 +256,9 @@ def main() -> None:
         )
 
     payload = {
-        "source": ", ".join(source.name for source in sources),
+        "source": ", ".join(
+            source.name.replace("\u200e", "").replace("\ufeff", "") for source in sources
+        ),
         "classes": classes,
         "classrooms": classrooms,
         "weeks": sorted(weeks, key=lambda week: int(str(week["id"]))),

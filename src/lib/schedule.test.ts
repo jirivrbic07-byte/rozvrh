@@ -17,13 +17,9 @@ describe('časy výukových bloků', () => {
 
 describe('říjnový rozvrh', () => {
   it('obsahuje týdny 40–44 a třídu III/4A/2026', () => {
-    expect(scheduleData.weeks.slice(-5).map((week) => week.id)).toEqual([
-      '40',
-      '41',
-      '42',
-      '43',
-      '44',
-    ]);
+    expect(scheduleData.weeks.map((week) => week.id)).toEqual(
+      expect.arrayContaining(['40', '41', '42', '43', '44']),
+    );
     expect(scheduleData.classes).toContain('III/4A/2026');
   });
 
@@ -35,6 +31,46 @@ describe('říjnový rozvrh', () => {
     expect(
       octoberWeeks.every((week) => getBlocks(week, 'III/4A/2026').length > 0),
     ).toBe(true);
+  });
+});
+
+describe('listopadový rozvrh', () => {
+  it('obsahuje týdny 45–48 včetně nových kurzů', () => {
+    expect(scheduleData.weeks.slice(-4).map((week) => week.id)).toEqual([
+      '45',
+      '46',
+      '47',
+      '48',
+    ]);
+    expect(scheduleData.weeks.find((week) => week.id === '45')?.startDate).toBe(
+      '2026-11-02',
+    );
+    expect(scheduleData.weeks.find((week) => week.id === '48')?.endDate).toBe(
+      '2026-11-27',
+    );
+    expect(scheduleData.classes).toEqual(
+      expect.arrayContaining([
+        'IS ETŘ-Z-12A',
+        'PSZ-18A',
+        'SZZ-5A',
+        'SZZ-6A',
+        'TECC LE-5A',
+        'TECC LE-6A',
+      ]),
+    );
+    expect(scheduleData.classrooms).toMatchObject({
+      'IS ETŘ-Z-12A': '16',
+      'PSZ-18A': '6A-P2',
+    });
+  });
+
+  it('má ve 47. týdnu dovolenou v pondělí a volné úterý', () => {
+    const week47 = scheduleData.weeks.find((week) => week.id === '47');
+    const blocks = week47 ? getBlocks(week47, 'ZOP BS-3A') : [];
+    expect(blocks.some((block) => block.dayId === 'mon' && block.raw.includes('dovolená'))).toBe(
+      true,
+    );
+    expect(blocks.some((block) => block.dayId === 'tue')).toBe(false);
   });
 });
 

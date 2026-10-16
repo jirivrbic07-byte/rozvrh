@@ -148,6 +148,10 @@ export const SUBJECTS: Record<string, SubjectDefinition> = {
   'IS-ETŘ': { code: 'IS-ETŘ', name: 'Informační systém ETŘ', background: '#eef4ff', border: '#b8cff7', text: '#31538c', accent: '#648bd0' },
   SCP: { code: 'SCP', name: 'Služba cizinecké policie', background: '#e8f8f2', border: '#a9dfcb', text: '#216650', accent: '#51a989' },
   ZDP: { code: 'ZDP', name: 'Zdravotnická příprava', background: '#e8f8ed', border: '#abdcb9', text: '#28663b', accent: '#55a66d' },
+  'TŘH': { code: 'TŘH', name: 'TŘH', background: '#fdf2ff', border: '#e9bdf0', text: '#7d3887', accent: '#b65cc4' },
+  OPK: { code: 'OPK', name: 'OPK', background: '#fff0ed', border: '#ffc2b7', text: '#9a3829', accent: '#e66e59' },
+  OSP: { code: 'OSP', name: 'OSP', background: '#fff8dc', border: '#efdc89', text: '#795e00', accent: '#cba825' },
+  OVS: { code: 'OVS', name: 'OVS', background: '#e9f7ff', border: '#adddf4', text: '#17637e', accent: '#42a2c4' },
   EVENT: {
     code: 'INFO',
     name: 'Organizační blok',
